@@ -60,18 +60,6 @@ export default grapesjs.plugins.add('grapesjs-accordions', (editor, opts = {}) =
       <div id="accordion1" ${attrAccordionContent}>
         <div>Accordion 1 Content</div>
       </div>
-      <div ${attrAccordionContainer}>
-        <a href="#accordion2" ${attrAccordion}>Accordion 2</a>
-      </div>
-      <div id="accordion2" ${attrAccordionContent}>
-        <div>Accordion 2 Content</div>
-      </div>      
-      <div ${attrAccordionContainer}>
-        <a href="#accordion3" ${attrAccordion}>Accordion 3</a>
-      </div>
-      <div id="accordion3" ${attrAccordionContent}>
-        <div>Accordion 3 Content</div>
-      </div>
     `,
 
     // Default template for new added accordion contents
@@ -86,7 +74,6 @@ export default grapesjs.plugins.add('grapesjs-accordions', (editor, opts = {}) =
         display: block;
         border-radius: 3px;
         margin-right: 10px;
-        background-color: #eee;
         margin-top: 5px;
       }
 
